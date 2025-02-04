@@ -1,0 +1,1 @@
+savedcmd_/root/kernel-modules/module1/simple_module.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /root/kernel-modules/module1/simple_module.ko /root/kernel-modules/module1/simple_module.o /root/kernel-modules/module1/simple_module.mod.o
