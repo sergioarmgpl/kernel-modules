@@ -1,1 +1,0 @@
-savedcmd_/root/kernel-modules/module2/simple_driver.mod := printf '%s\n'   simple_driver.o | awk '!x[$$0]++ { print("/root/kernel-modules/module2/"$$0) }' > /root/kernel-modules/module2/simple_driver.mod
