@@ -1,1 +1,0 @@
-savedcmd_/root/kernel-modules/module1/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /root/kernel-modules/module1/Module.symvers -T /root/kernel-modules/module1/modules.order -i Module.symvers -e 

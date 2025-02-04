@@ -1,1 +1,0 @@
-savedcmd_/root/kernel-modules/module1/simple_module.mod := printf '%s\n'   simple_module.o | awk '!x[$$0]++ { print("/root/kernel-modules/module1/"$$0) }' > /root/kernel-modules/module1/simple_module.mod
