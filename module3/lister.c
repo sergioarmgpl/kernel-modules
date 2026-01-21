@@ -12,7 +12,7 @@
 #include <linux/uaccess.h>
 #include <net/net_namespace.h>
 
-#define MODULE_NAME "docker_lister"
+#define MODULE_NAME "lister"
 #define MAX_CONTAINER_ID_LEN 64
 #define MAX_PATH_LEN 256
 #define MAX_CONTAINERS 50
@@ -26,8 +26,8 @@ struct container_info {
 };
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Cloud Society");
-MODULE_DESCRIPTION("Simple Docker Container Lister Kernel Module");
+MODULE_AUTHOR("sergioarmgpl");
+MODULE_DESCRIPTION("Simple Lister Kernel Module");
 MODULE_VERSION("1.0");
 
 static bool is_docker_container_process(struct task_struct *task)
