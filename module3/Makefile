@@ -1,7 +1,6 @@
 # Docker Container Lister Kernel Module Makefile
 
 obj-m += docker_lister.o
-docker_lister-objs := process_lister.o
 
 # Directorio de construcción del kernel
 KERNEL_DIR := /lib/modules/$(shell uname -r)/build
