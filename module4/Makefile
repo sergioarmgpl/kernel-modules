@@ -11,7 +11,7 @@ all: rust_lib
 	rm -f simple_module_c.c
 
 rust_lib: rust_helper.rs
-	$(RUSTC) $(RUST_FLAGS) --target x86_64-unknown-linux-gnu -o rust_helper.o rust_helper.rs
+	$(RUSTC) $(RUST_FLAGS) -o rust_helper.o rust_helper.rs
 
 clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
