@@ -1,4 +1,4 @@
-obj-m += lister.o
+obj-m += module3.o
 
 KERNEL_DIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
